@@ -3,6 +3,7 @@ function getCountDownTimer(launchDate) {
   // Set the date we're counting down to
   const countDownDate = new Date(launchDate).getTime();
   // Update the count down every 1 second
+  // LANZA LA FUNCION CADA CIERTO TIEMPO, devuelve un ID de proceso
   const x = setInterval(() => {
     // Get today's date and time
     const now = new Date().getTime();
@@ -66,6 +67,7 @@ function getApiData(api, selector) {
 
 function createElement(launch, count) {
   const div = document.createElement('div');
+  // el método setAttribute, que toma dos parametros, primero el nombre de la propiedad a setear y el valor
   div.setAttribute('id', `card-${count}`);
   div.setAttribute('class', 'col-sm-6');
   div.style.display = 'inline-block';
@@ -102,6 +104,7 @@ function getPastLaunches(api) {
     .then((result) => printPastLaunchesList(result))
     .catch((error) => console.log('error', error));
 }
+// forma de llamar a la API 
 
 const apiBaseUrl = 'https://api.spacexdata.com/v4/';
 

@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santiaguf/spacex-platzi.git"
+    "url": "https://github.com/wGuerrero333/wGuerrero333site.github.io.git"
   },
   "keywords": [
     "platzi",
     "spacex",
     "API"
   ],
-  "author": "Santiago Bernal @santiaguf",
+  "author": "Will Guer Editado de @santiaguf",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/santiaguf/spacex-platzi/issues"
+    "url": "https://github.com/wGuerrero333/wGuerrero333site.github.io.git"
   },
-  "homepage": "https://github.com/santiaguf/spacex-platzi#readme",
+  "homepage": "https://wguerrero333.github.io/wGuerrero333site.github.io/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.23.0",
